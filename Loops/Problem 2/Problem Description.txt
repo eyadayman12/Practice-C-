@@ -1,0 +1,5 @@
+/** Problem_2: Find How Many X,Y numbers such that:
+                * X in range[1-100]
+                * Y in range[70-200]
+                * X<Y
+                * (X+Y) divisible by 7**/
