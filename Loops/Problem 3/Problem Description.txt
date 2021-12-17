@@ -1,0 +1,3 @@
+/** Problem_3: Find Count of 4 numbers A,B,C,D such that:
+                * 0<=A,B,C,D<100 (Each number in this range)
+                * A+B+C+D=100**/
