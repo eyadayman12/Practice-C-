@@ -21,6 +21,8 @@ int main()
                 if (i % j == 0)
                     iSum+=j;
             }
+            else
+                break;
         }
         if (iSum == i)
             cout<<i<<"\n";
