@@ -1,0 +1,17 @@
+/**
+* Write a C++ Program to take an integer array of size 10 as input and find the maximum value in the array.
+* Sample Output:
+* Enter element number 1 : 1
+* Enter element number 2 : 2
+* Enter element number 3 : 3
+* Enter element number 4 : 4
+* Enter element number 5 : 5
+* Enter element number 6 : 6
+* Enter element number 7 : 7
+* Enter element number 8 : 8
+* Enter element number 9 : 9
+* Enter element number 10 : 10
+* Max Value in the array: 10
+**/
+
+** note:: handle the input Validation
