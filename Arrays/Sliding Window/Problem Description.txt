@@ -1,0 +1,26 @@
+/** Given an array and k, find sub array of length k with maximum sum 
+ * think in the array: [a b c d e f g h] with k = 3
+ * then we want to check
+ * [a b c]
+ *  [b c d]
+ *   [c d e]
+ *    [d e f]
+ *     [e f g]
+ *      [f g h]
+ * Each one of them is called a window, and moving from window to another called sliding window.
+ * This is called FIXED SIZE sliding window.
+ * Sample Output:
+ * Enter element number 1 : 1
+ * Enter element number 2 : 2
+ * Enter element number 3 : 3
+ * Enter element number 4 : 4
+ * Enter element number 5 : 5
+ * Enter element number 6 : 6
+ * Enter element number 7 : 7
+ * Enter element number 8 : 8
+ * Enter element number 9 : 9
+ * Enter element number 10 : 10
+ * Sum of the Max Window = 27
+ **/
+
+/// note:: handle the input Validation
