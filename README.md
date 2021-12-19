@@ -4,3 +4,9 @@
 #### And inside the problem name folders, You will find two files, a text file which describes the problem and a cpp file which contains a C++ code that solves the problem.<br><br><br>
 ## Resources:<br>
 ##### - w3resource
+##### - Arabic Competetive Programming
+<br><br><br>
+
+## Total Problem (till now) ==> 8<br>:
+##### - 7 Loops
+##### - 1 Arrays
