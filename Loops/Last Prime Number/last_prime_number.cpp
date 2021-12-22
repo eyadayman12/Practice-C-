@@ -46,8 +46,6 @@ int main()
             break;
         }
     }
-     cout<<iLastPrimeNumber;
-
-
+    cout<<iLastPrimeNumber<<" is the last prime number before "<<iNum;
     return 0;
 }
