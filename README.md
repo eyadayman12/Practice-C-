@@ -7,6 +7,6 @@
 ##### - Arabic Competetive Programming
 <br><br><br>
 
-## Total Problems (till now) ---> **12** :<br>
+## Total Problems (till now) ---> **13** :<br>
 ##### - 8 Loops
-##### - 4 Arrays
+##### - 5 Arrays
