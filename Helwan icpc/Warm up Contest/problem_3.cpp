@@ -1,35 +1,37 @@
 /**
  * Problem Describtion:
- * Recently, a chaotic virus Hexadecimal advanced a new theorem which will shake the Universe.
- * She thinks that each Fibonacci number can be represented as sum of three not necessary different Fibonacci numbers.
- * Let's remember how Fibonacci numbers can be calculated. F0 = 0, F1 = 1, and all the next numbers are Fi = Fi - 2 + Fi - 1.
- * So, Fibonacci numbers make a sequence of numbers: 0, 1, 1, 2, 3, 5, 8, 13, ...
- * If you haven't run away from the PC in fear, you have to help the virus.
- * Your task is to divide given Fibonacci number n by three not necessary different Fibonacci numbers or say that it is impossible.
+ * Vasiliy likes to rest after a hard work, so you may often meet him in some bar nearby. 
+ * As all programmers do, he loves the famous drink "Beecola", which can be bought in n different shops in the city. 
+ * It's known that the price of one bottle in the shop i is equal to xi coins.
+ * Vasiliy plans to buy his favorite drink for q consecutive days. 
+ * He knows, that on the i-th day he will be able to spent mi coins. 
+ * Now, for each of the days he want to know in how many different shops he can buy a bottle of "Beecola".
  */
 
 /// Solution:
 
-#include <iostream>
-
+#include <bits/stdc++.h>
 
 using namespace std;
 
-int main() {
-    int n, count=0;
-    cin>>n;
-    int arr[n];
-    for (int i=0; i<n; i++) cin>>arr[i];
-    int q;
-    cin>>q;
-    while(q--){
-        int price;
-        cin>>price;
-        for (int i=0; i<n; i++){
-            if (price>=arr[i]) count++;
-        }
-        cout<<count<<endl;
-        count=0;
-    }
-    return 0;
+#define fast ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+
+int arr[100001];
+
+int main()
+{
+	fast;
+
+	int n; cin >> n;
+	for (int i = 0; i < n; i++) cin >> arr[i];
+	sort(arr, arr + n);
+
+	int q; 
+	cin >> q;
+	int t;
+	while (q--)
+	{
+		cin >> t;
+		cout << upper_bound(arr, arr + n, t) - arr << endl;
+	}
 }
