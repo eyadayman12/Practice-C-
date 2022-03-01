@@ -9,4 +9,4 @@
 ##### - Vjudge
 <br><br><br>
 
-## Total Problems (till now) ---> **90** :<br>
+## Total Problems (till now) ---> **94** :<br>
